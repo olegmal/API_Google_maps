@@ -1,0 +1,24 @@
+Метод post
+https://rahulshettyacademy.com/maps/api/place/add/json?key =qaclick123
+{"status":"OK","place_id":"2079826ad0070e45fb936bc6a7761ea2","scope":"APP","reference":"b0f52dfe8707030c38957be21e0b870eb0f52dfe8707030c38957be21e0b870e","id":"b0f52dfe8707030c38957be21e0b870e"}
+Вірно! Статуc код = 200
+Метод GET-перевірка методу POST
+https://rahulshettyacademy.com/maps/api/place/get/json?key =qaclick123&place_id=2079826ad0070e45fb936bc6a7761ea2
+
+Вірно! Статуc код = 200
+Метод put
+https://rahulshettyacademy.com/maps/api/place/update/json?key =qaclick123
+{"msg":"Address successfully updated"}
+Вірно! Статуc код = 200
+Метод GET- перевірка методу PUT
+https://rahulshettyacademy.com/maps/api/place/get/json?key =qaclick123&place_id=2079826ad0070e45fb936bc6a7761ea2
+
+Вірно! Статуc код = 200
+Метод DELETE
+https://rahulshettyacademy.com/maps/api/place/delete/json?key =qaclick123
+{"status":"OK"}
+Вірно! Статуc код = 200
+Метод GET- перевірка методу DELETE
+https://rahulshettyacademy.com/maps/api/place/get/json?key =qaclick123&place_id=2079826ad0070e45fb936bc6a7761ea2
+
+Вірно! Статуc код = 200
